@@ -1,0 +1,56 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0b1929;
+  --surface: #0f2337;
+  --surface2: #162d45;
+  --border: rgba(55,138,221,0.2);
+  --text: #e6f1fb;
+  --text2: #85b7eb;
+  --text3: #4a7aaa;
+  --accent: #378add;
+  --accent-dark: #185fa5;
+  --green: #3b6d11;
+  --green-bg: #eaf3de;
+  --amber: #ba7517;
+  --amber-bg: #faeeda;
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+
+html, body { height: 100%; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; line-height: 1.5; }
+
+input, select, button { font-family: inherit; font-size: 13px; }
+
+input, select {
+  background: var(--surface2);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  padding: 7px 10px;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.15s;
+}
+input:focus, select:focus { border-color: var(--accent); }
+select option { background: var(--surface2); }
+
+button {
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  border: 0.5px solid var(--border);
+  background: transparent;
+  color: var(--text);
+  padding: 7px 16px;
+  transition: background 0.15s;
+}
+button:hover { background: var(--surface2); }
+button:active { opacity: 0.8; }
+
+.btn-primary {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #e6f1fb;
+  font-weight: 500;
+}
+.btn-primary:hover { background: #0c447c; }

@@ -1,0 +1,26 @@
+{
+  "name": "airline-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@supabase/supabase-js": "2.43.4",
+    "bcryptjs": "2.4.3",
+    "jsonwebtoken": "9.0.2",
+    "d3": "7.9.0",
+    "topojson-client": "3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.12",
+    "@types/react": "18.3.3",
+    "@types/bcryptjs": "2.4.6",
+    "@types/jsonwebtoken": "9.0.6"
+  }
+}
