@@ -1,4 +1,4 @@
-# Airline Tracker — Setup-Anleitung
+# Airline Tracker — Setup-Anleitung 
 
 ## Was du brauchst
 - Ein [Vercel-Konto](https://vercel.com) (kostenlos)
